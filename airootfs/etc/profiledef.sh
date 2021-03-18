@@ -1,0 +1,10 @@
+file_permissions=(
+    ["/etc/shadow"]="0:0:0400"
+    ["/etc/gshadow"]="0:0:0400"
+    ["/etc/profile"]="0:0:0644"
+    ["/etc/profile.d"]="0:0:0755"
+    ["/etc/profile.d/motd.sh"]="0:0:0755"
+    ["/root"]="0:0:0750"
+    ["/root/.ssh"]="0:0:0700"
+    ["/root/.ssh/authorized_keys"]="0:0:0600"
+)
